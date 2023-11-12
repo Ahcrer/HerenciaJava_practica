@@ -2,13 +2,9 @@ package Ejercicio2;
 
 public class Figura {
 
-    protected int base;
-    protected int altura;
-    protected int area;
+    public void calcularArea() {
 
-    public Figura(int base, int altura, int area) {
-        this.base = base;
-        this.altura = altura;
-        this.area = area;
+        System.out.println("El área de cualquier figura podría ser cualquiera");
+
     }
 }
