@@ -1,28 +1,17 @@
 package Ejercicio1;
 
 public class Animal {
-    // atributo
-    String nombre;
 
-    // constructor
-    public Animal(String nombre) {
+    protected String nombre;
+    protected int edad;
+
+    public Animal(String nombre, int edad) {
         this.nombre = nombre;
+        this.edad = edad;
     }
 
-    // metodo
     public void hacerSonido() {
-
-    }
-}
-
-class perro extends Animal {
-
-    public perro(String nombre) {
-        super(nombre);
-    }
-
-    public void ladrido() {
-
+        System.out.println("El animal hace un sonido:");
     }
 
 }

@@ -3,6 +3,10 @@ package Ejercicio1;
 public class main {
 
     public static void main(String[] args) {
-        System.out.println("Hola mundo");
+
+        Perro perro = new Perro("Firulais", "Dálmata", 3);
+        perro.hacerSonido();
+        perro.ladrido();
+
     }
 }
